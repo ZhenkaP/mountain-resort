@@ -1,6 +1,6 @@
 # Mountain Resort
 
-[Live Demo](https://elaborate-nougat-eb1668.netlify.app) 
+[Live Demo](https://zhenkap-mountain-resort.netlify.app/) 
 
 Современный веб-сайт для горного курорта, разработанный на стеке React + Vite. Проект создан с упором на высокую производительность, чистую архитектуру и отличный пользовательский опыт.
 
