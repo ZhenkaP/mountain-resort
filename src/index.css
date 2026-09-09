@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important; /* Цвет самих стрелок */
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для контраста */
+  width: 40px; /* Можно изменить размер кнопки */
+  height: 40px;
+  border-radius: 50%; /* Делаем кнопки круглыми */
+}
+
+/* Убираем стандартный синий фон при наведении, если он мешает */
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px; /* Размер самой иконки стрелки */
+  font-weight: bold;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
